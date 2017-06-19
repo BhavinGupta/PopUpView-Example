@@ -1,0 +1,23 @@
+{
+  "name": "CustomPopUpView",
+  "version": "1.0.0",
+  "summary": "Custom Pop Up View for iPad and iPhone using Auto Layout",
+  "homepage": "https://github.com/BhavinGupta/CustomPopUpView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bhavin Gupta": "bhavingupta007@yahoo.co.in"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/BhavinGupta/CustomPopUpView.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "CustomPopUpView",
+  "resources": "CustomPopUpView/*.xib",
+  "requires_arc": true
+}
