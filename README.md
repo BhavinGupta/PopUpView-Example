@@ -8,15 +8,6 @@ example using dynamic framework.
 
 ViewController.m
 
-      #import "ViewController.h"
-      #import <CustomPopUpView/CustomPopUp.h>
-
-      @interface ViewController ()<CustomPopUpDelegate>
-
-      @end
-
-      @implementation ViewController
-
       #pragma mark - View Life Cycle
       - (void)viewDidLoad {
           [super viewDidLoad];
@@ -36,5 +27,7 @@ ViewController.m
 
       #pragma mark - Custom pop view delegate
       - (void)dismissCustomPopUpView:(CustomPopUp *)customPopView{
-          NSLog(@"dismissed pressed.");
+          UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Pop Up View" message:@"Submission Successful." preferredStyle:UIAlertControllerStyleAlert];
+          [alertController addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil]];
+          [self presentViewController:alertController animated:YES completion:nil];
       }
