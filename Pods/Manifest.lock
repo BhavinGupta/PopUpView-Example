@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   CustomPopUpView:
-    :commit: 9c6962a77617a60ef555f6d1392075d9e7e833d1
+    :commit: ee8b1b704745ba565ad114dd24108708941925dd
     :git: https://github.com/BhavinGupta/CustomPopUpView.git
 
 SPEC CHECKSUMS:
-  CustomPopUpView: b4ffbe965a8b1d632278ba20d726f782da169603
+  CustomPopUpView: 59e503a258e2d4b127e16d4ac81e66a7b59746b9
 
-PODFILE CHECKSUM: 0e81b9f49dfb5ce4825379ee4c33b3fed9b04d44
+PODFILE CHECKSUM: 9a745980307ac36cbf79dbdc5384ff81df6daf2c
 
 COCOAPODS: 1.3.0.beta.1
