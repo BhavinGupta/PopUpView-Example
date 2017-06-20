@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   CustomPopUpView:
-    :commit: ee8b1b704745ba565ad114dd24108708941925dd
+    :commit: 47aba99ce24b3fa7ee8a73c7470b5e72a04898a2
     :git: https://github.com/BhavinGupta/CustomPopUpView.git
 
 SPEC CHECKSUMS:
